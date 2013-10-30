@@ -1,5 +1,5 @@
 module Dijkstra
-  class Relationship < Struct.new :cost, :start_node, :end_node
+  class Relationship < Struct.new :cost, :ends
 
   end
 end
